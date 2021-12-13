@@ -7,14 +7,14 @@
        "metadata": {
           "description": "Name of Panorama in the Azure portal"
        },
-       "defaultValue": "panorama-primary"
+       "defaultValue": "Panorama-Primary"
     },
     "storageAccountName": {
       "type": "string",
       "metadata": {
         "description": "Name of the EXISTING storage account used to store the VM's disks"
       },
-      "defaultValue": "managementv2diag"
+      "defaultValue": "adilansaristorageaccount"
     },
     "storageAccountExistingRG": {
        "type": "string",
@@ -28,7 +28,7 @@
        "metadata": {
           "description": "EXISTING availability set name for Panorama"
        },
-       "defaultValue": "Management"
+       "defaultValue": "AdilAnsari_PanoramaAVSet"
     },
     "vmSize": {
        "type": "string",
@@ -74,7 +74,7 @@
       "metadata": {
         "description": "Name of the EXISTING Virtual Network (VNET)"
       },
-      "defaultValue": "Management"
+      "defaultValue": "Adil_Panorma_VNET"
     },
     "virtualNetworkAddressPrefix": {
       "type": "string",
@@ -88,7 +88,7 @@
       "metadata": {
         "description": "Name of resource group of EXISTING VNET"
       },
-      "defaultValue": "Management"
+      "defaultValue": "AdilAnsari"
     },
     "subnetName": {
       "type": "string",
@@ -116,7 +116,7 @@
       "metadata": {
         "description": "Username of the administrator account of Panorama"
       },
-      "defaultValue": "refarchadmin"
+      "defaultValue": "panadmin"
     },
     "adminPassword": {
       "type": "securestring",
@@ -130,11 +130,11 @@
       "metadata": {
         "description": "Name of Panorama's Public Address"
       },
-      "defaultValue": "panorama-primary"
+      "defaultValue": "adilansari-panorama-primary"
     },
     "nsgName": {
       "type": "string",
-      "defaultValue": "AllowALL-NIC",
+      "defaultValue": "AdilAnsari_AllowAll-NIC",
       "metadata": {
         "description": "Name of existing Network Security Group for MGMT FW interface"
       }
