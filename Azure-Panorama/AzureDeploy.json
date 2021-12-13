@@ -92,7 +92,7 @@
     },
     "subnetName": {
       "type": "string",
-      "defaultValue": "mgmt",
+      "defaultValue": "Panorama_Management",
       "metadata": {
         "description": "EXISTING Subnet for Management"
       }
