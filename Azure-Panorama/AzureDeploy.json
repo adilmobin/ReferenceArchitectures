@@ -21,7 +21,7 @@
        "metadata": {
           "description": "Storage Account's Resource Group."
        },
-       "defaultValue": "Management"
+       "defaultValue": "adilansaristorageaccount"
     },
     "AvSet": {
        "type": "string",
