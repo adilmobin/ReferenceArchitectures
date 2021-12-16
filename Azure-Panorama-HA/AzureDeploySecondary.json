@@ -113,7 +113,7 @@
       "allowedValues":[
       "10.255.0.4",
       "10.255.0.5"
-      ]
+      ],
     },
     "adminUsername": {
       "type": "string",
