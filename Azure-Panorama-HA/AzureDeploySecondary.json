@@ -106,7 +106,7 @@
     },
     "vmIPAddress": {
       "type": "string",
-      "defaultValue": "10.255.0.4",
+      "defaultValue": "",
       "metadata": {
         "description": "Management subnet static address"
       }
