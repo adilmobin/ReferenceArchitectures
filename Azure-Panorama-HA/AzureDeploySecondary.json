@@ -109,7 +109,7 @@
       "defaultValue": "",
       "metadata": {
         "description": "Management subnet static address"
-      }
+      },
       "allowedValues":[
       "10.255.0.4",
       "10.255.0.5"
