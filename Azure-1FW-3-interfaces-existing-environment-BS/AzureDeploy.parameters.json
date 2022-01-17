@@ -7,7 +7,7 @@
        "metadata": {
           "description": "Name of VM-Series FW in the Azure portal"
        },
-       "defaultValue": "ARA-VMFW1"
+       "defaultValue": "VM-FW-1"
     },
     "storageAccountName": {
       "type": "string",
@@ -27,7 +27,7 @@
        "metadata": {
           "description": "Availability Set name for Firewalls"
        },
-       "defaultValue": "ARAFW-AS"
+       "defaultValue": "AdilAnsari_TransitAVSet"
     },
     "vmSize": {
        "type": "string",
@@ -50,7 +50,7 @@
       "metadata": {
         "description": "Name of the Virtual Network (VNET)"
       },
-      "defaultValue": "AzureRA-VNet"
+      "defaultValue": "Adil_Transit_VNET"
     },
     "virtualNetworkAddressPrefix": {
       "type": "string",
