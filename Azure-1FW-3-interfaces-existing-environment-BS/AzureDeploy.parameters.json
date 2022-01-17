@@ -7,7 +7,7 @@
        "metadata": {
           "description": "Name of VM-Series FW in the Azure portal"
        },
-       "defaultValue": "VM-FW-1"
+       "defaultValue": "VM-FW-01"
     },
     "storageAccountName": {
       "type": "string",
