@@ -11,6 +11,7 @@
     },
     "storageAccountName": {
       "type": "string",
+      "defaultValue" : "adilansaritransitstgact",
       "metadata": {
         "description": "Name of the EXISTING storage account used to store the VM's disks"
       }
