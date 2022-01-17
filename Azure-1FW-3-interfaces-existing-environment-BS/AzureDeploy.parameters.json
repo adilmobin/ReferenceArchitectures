@@ -68,21 +68,21 @@
     },
     "subnet0Name": {
       "type": "string",
-      "defaultValue": "Management",
+      "defaultValue": "Transit-Management",
       "metadata": {
         "description": "Subnet for Management"
       }
     },
     "subnet1Name": {
       "type": "string",
-      "defaultValue": "Public",
+      "defaultValue": "Transit-Public",
       "metadata": {
         "description": "Public Subnet"
       }
     },
     "subnet2Name": {
       "type": "string",
-      "defaultValue": "Private",
+      "defaultValue": "Transit-Private",
       "metadata": {
         "description": "Private Subnet"
       }
