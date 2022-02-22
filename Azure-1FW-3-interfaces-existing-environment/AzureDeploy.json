@@ -7,7 +7,7 @@
        "metadata": {
           "description": "Name of VM-Series FW in the Azure portal"
        },
-       "defaultValue": "vmseries-1"
+       "defaultValue": "PA-VM-FW1"
     },
     "storageAccountName": {
       "type": "string",
@@ -85,7 +85,7 @@
       "metadata": {
         "description": "Name of the EXISTING Virtual Network (VNET)"
       },
-      "defaultValue": "Transit-VNet"
+      "defaultValue": "AdilAnsari_Transit-VNet"
     },
     "virtualNetworkAddressPrefix": {
       "type": "string",
